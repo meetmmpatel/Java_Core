@@ -1,0 +1,42 @@
+
+
+
+Collection Framework:
+
+    1. Hold more the one variable or object (Array with resizable )
+    2. it's data structure
+
+    Interface Collection: (Only store the data in list format)
+        1. Set interface:  will not allow duplicate..
+        2. List interface: Will allow all the value including duplicate and null
+        3. Queue interface: First In First out (FIFO and LIFO)
+
+           List: ArrayList, LinkedList and Vector
+           Set: HashSet, LinkedHashSet and TreeSet
+           Queue: Queue, priority queue and stack
+
+          List<DataType> name = new ArrayList<>();
+          1. DataType can only be class.
+
+    Map Interface: (can only store the data in key,value format)
+          1. Hash Map
+          2. Tree Map
+          3. Hash Table
+
+          Map<Integer, String> refname = new HashMap<>();
+
+          HashMap: it makes no guarantees concerning the order of iteration
+
+          TreeMap: It stores its elements in a red-black tree, orders
+                   its elements based on their values; it is substantially
+                   slower than HashMap.
+
+          LinkedHashMap: It orders its elements based on the order
+                  in which they were inserted into the set (insertion-order).
+
+                  It stores key-value pairs similar to HashMap.
+                  It contains only unique keys. Duplicate keys are not allowed.
+                  It may have one null key and multiple null values.
+                  It maintains the order of K,V pairs inserted to it
+                  by adding elements to internally managed doubly-linked list.
+
